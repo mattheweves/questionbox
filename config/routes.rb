@@ -25,7 +25,7 @@ Qbox::Application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-
+  root 'qbox#index'
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales

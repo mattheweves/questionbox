@@ -1,0 +1,2 @@
+module QboxHelper
+end

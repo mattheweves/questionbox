@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Qbox</title>
+  <title>The Question Box</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="body">
+
+   <div class="logo-main">
+     The Question BOX<br />
+   </div>
+        <div class="slogan">
+           Coming Soon....
+        </div>
+        <br />
+      <!-- Collect the nav links, forms, and other content for toggling -->
+        <a target="_blank" href="https://github.com/mattheweves/questionbox"> 
+          <%= image_tag 'github.png' %><br />// Matt Eves - GitHub //  
+         </a>
+      </div>
+
 
 <%= yield %>
+
+
+  <br class="clear" />
 
 </body>
 </html>
