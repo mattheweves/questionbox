@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class QboxControllerTest < ActionController::TestCase
+class QuestionsControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end

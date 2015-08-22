@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20150821135158) do
 
   create_table "questions", force: true do |t|
     t.string   "category"
-    t.text     "question"
+    t.text     "questiontext"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

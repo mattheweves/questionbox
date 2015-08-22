@@ -6,26 +6,37 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="body">
 
-   <div class="logo-main">
-     The Question BOX<br />
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+       <div class="logo-main navbar-left">
+        <%= link_to root_path do %>
+         ?⃞ The Question Box
+       </div>
+       <% end %>
+       <div class="navbar-link navbar-right">
+        <%= link_to 'Add Your Question', new_question_path %>
+       </div> 
    </div>
-        <div class="slogan">
-           Coming Soon....
-        </div>
-        <br />
+  </nav>
+  </header>
+     
+ <div class="container">
+  <%= yield %>
+</div>
+
+ <div class="footer">
+    <div class="container">
+   <br />
       <!-- Collect the nav links, forms, and other content for toggling -->
         <a target="_blank" href="https://github.com/mattheweves/questionbox"> 
           <%= image_tag 'github.png' %><br />// Matt Eves - GitHub //  
          </a>
-      </div>
+    </div>
+  </div>
 
-
-<%= yield %>
-
-
-  <br class="clear" />
 
 </body>
 </html>

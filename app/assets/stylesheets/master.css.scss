@@ -1,4 +1,67 @@
+body {
+	margin-top: 150px;
+	background: #fff;
+	text-align: center;
+	z-index: 3;
+}
+
+
+
+
+.clear{
+	clear:both;
+}
+
+.topbar {
+
+	/* Monospace stack */
+font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+line-height: 10px;
+}
+
+.logo-main {
+
+color: #E1BCF5;
+font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+font-size: 22px;
+font-weight: 200;
+text-align: center;
+text-shadow: 0 0 12px rgba(0, 0, 0, 0.33);
+z-index: 3;
+padding-top:10px;
+
+}
+
+.question, .category {
+
+/* Trebuchet-based sans serif stack */
+color: #999;
+font-size: 18px;
+font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+position: relative;
+text-align: center;
+margin-top: 10px;
+
+}
 
 h1, h2 {
-	color: #fde312;
+	font-size: 24px;
+}
+
+.clear {
+  clear:both;
+}
+
+.links {
+  padding-top:10px;
+}
+
+.navbar-nav > li > a, .navbar-brand, .navbar-link {
+    padding-top:12px !important; 
+    padding-bottom:0 !important;
+    height: 50px;
+}
+.navbar {
+	min-height:50px !important;
+	background: #000;
 }
